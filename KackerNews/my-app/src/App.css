@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.Wrapper {
+  background-color: #f6f6ef;
+  min-width: 796px;
+  width: 85%;
+  font-family: Verdana, Geneva, sans-serif;
+font-size: 10pt;
+  margin: 0 auto;
+/* color: #828282; */
+   }
+
+.Header{
+  background-color: #ff6600;
+  padding: 2px;
+  line-height: 12pt;
+height: 10px;
+}
+.Main{
+  min-height: 600px;
+  border-bottom: 2px solid #ff6600;
+}
+.Footer{
+  background-color: #f6f6ef;
+}
+

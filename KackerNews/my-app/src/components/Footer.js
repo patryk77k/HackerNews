@@ -1,11 +1,23 @@
 import React from 'react';
 
-export default function Footer() {
+export default function Footer(){
+
+
+
     return (
-        <div className="Footer">
-        <p></p>      
-        </div>  
-        );
-
+        <footer>
+            <a href="" >Guidelines</a>
+            <a href="" >FAQ</a> 
+            <a href="" >Lists</a> 
+            <a href="" >API</a>
+            <a href="" >Security</a>
+            <a href="" >Legal</a>
+            <a href="" >Apply to YC</a>
+            <a href="" >Contact</a>
+            <form>
+                <span>Search:</span>
+                <input type="text" />
+            </form>
+        </footer>
+    );
 }
-
